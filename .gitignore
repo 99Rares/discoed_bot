@@ -8,3 +8,5 @@ __pycache__/
 
 # Environment
 .venv/
+birthdays.json
+ip_data.json
