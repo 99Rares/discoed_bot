@@ -1,0 +1,8 @@
+services:
+  bot:
+    image: discord-bot
+    build: .
+    environment:
+      - BOT_TOKEN=${BOT_TOKEN}
+    ports:
+      - "8082:8080"
